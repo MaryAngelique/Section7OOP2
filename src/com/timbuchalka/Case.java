@@ -14,6 +14,9 @@ public class Case {
 
     }
 
+    public Case(String dell, String s1, Dimensions dimensions) {
+    }
+
     public Case getTheCase() {
         return theCase;
     }
