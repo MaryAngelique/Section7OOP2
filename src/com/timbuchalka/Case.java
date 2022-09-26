@@ -28,4 +28,7 @@ public class Case {
     public Motherboard getMotherboard() {
         return motherboard;
     }
+
+    public void pressPowerButton() {
+    }
 }
