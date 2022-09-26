@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Wall wall1 = new Wall("West");
-
+        Dimensions dimensions = new Dimensions(20, 20, 5);
+        Case theCase = new Case("Dell", "240", dimensions);
 
     }
 
