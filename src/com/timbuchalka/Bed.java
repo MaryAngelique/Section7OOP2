@@ -18,5 +18,23 @@ public class Bed {
 
     }
 
+    public String getStyle() {
+        return style;
+    }
 
+    public int getPillows() {
+        return pillows;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getSheets() {
+        return sheets;
+    }
+
+    public int getQuilt() {
+        return quilt;
+    }
 }
