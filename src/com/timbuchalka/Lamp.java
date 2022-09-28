@@ -18,6 +18,15 @@ public class Lamp {
         System.out.println("Lamp -> Turning on");
     }
 
+    public String getStyle() {
+        return style;
+    }
 
+    public boolean isBattery() {
+        return battery;
+    }
 
+    public int getGlobRating() {
+        return globRating;
+    }
 }
