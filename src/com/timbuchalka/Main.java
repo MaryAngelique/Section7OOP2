@@ -33,4 +33,6 @@ public class Main {
 
     Ceiling ceiling = new Ceiling(12, 55);
 
+    Bed bed = new Bed("Modern", 4, 3, 2, 1);
+
 }
