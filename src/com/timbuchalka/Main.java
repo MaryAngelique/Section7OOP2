@@ -35,4 +35,11 @@ public class Main {
 
     Bed bed = new Bed("Modern", 4, 3, 2, 1);
 
+    Lamp lamp = new Lamp("Classic", false, 75);
+
+    Bedroom bedRoom = new Bedroom("Tims", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
+        bedRoom.makeBed();
+
+        bedRoom.getLamp().turnOn();
+
 }
