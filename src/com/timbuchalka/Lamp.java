@@ -13,4 +13,11 @@ public class Lamp {
         this.globRating = globRating;
 
     }
+
+    public void turnOn() {
+        System.out.println("Lamp -> Turning on");
+    }
+
+
+
 }
