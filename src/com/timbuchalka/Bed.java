@@ -17,6 +17,10 @@ public class Bed {
         this.quilt = quilt;
 
     }
+    public void make() {
+        System.out.println("Bed -> Making");
+    }
+
 
     public String getStyle() {
         return style;
