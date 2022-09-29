@@ -1,13 +1,17 @@
-package com.timbuchalka;
+package com.timbuchalka.composition;
 
-public class Resolution {
+public class Dimensions {
 
     private int width;
     private int height;
+    private int depth;
 
-    public Resolution(int width, int height) {
+    public Dimensions(int width, int height, int depth) {
+
         this.width = width;
         this.height = height;
+        this.depth = depth;
+
     }
 
     public int getWidth() {
@@ -16,5 +20,9 @@ public class Resolution {
 
     public int getHeight() {
         return height;
+    }
+
+    public int getDepth() {
+        return depth;
     }
 }
