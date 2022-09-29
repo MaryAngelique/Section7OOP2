@@ -1,4 +1,4 @@
-package com.timbuchalka;
+package com.timbuchalka.composition;
 
 public class PC {
 
