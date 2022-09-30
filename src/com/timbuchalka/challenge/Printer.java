@@ -53,4 +53,10 @@ public class Printer {
 
     }
 
+    public int getPagesPrinted() {
+
+        return pagesPrinted;
+
+    }
+
 }
