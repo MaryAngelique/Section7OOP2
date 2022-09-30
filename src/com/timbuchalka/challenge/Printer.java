@@ -6,4 +6,12 @@ public class Printer {
     private int pagesPrinted;
     private boolean duplex;
 
+    public Printer(int tonerLevel, boolean duplex) {
+
+        this.duplex = duplex;
+        this.pagesPrinted = 0;
+
+    }
+
+
 }
