@@ -13,6 +13,12 @@ public class Main {
         // simulate printing a page (which should increase the number of pages printed).
         // Decide on the scope, whether to use constructors, and anything else you think is needed.
 
+
+        Printer printer = new Printer(50, false);
+        System.out.println("initial page count = " +printer.getPagesPrinted());
+
+
+
     }
 
 }
