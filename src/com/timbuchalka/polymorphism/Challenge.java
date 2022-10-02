@@ -43,6 +43,17 @@ class Mitsubishi extends Car {
         super(cylinders, name);
     }
 
+    public String startEngine() {
+        return "Car -> startEngine()";
+    }
+
+    public String accelerate() {
+        return "Car -> accelerate()";
+    }
+
+    public String brake() {
+        return "Car -> brake()";
+    }
 
 }
 
