@@ -68,6 +68,14 @@ class StarWars extends Movie {
 }
 
 
+
+class Forgetable extends Movie {
+    public Forgetable() {
+        super("Forgetable");
+    }
+}
+
+
 public class Main {
 
     public static void main(String[] args) {
