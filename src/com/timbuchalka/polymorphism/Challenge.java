@@ -14,7 +14,13 @@ class Car {
         this.wheels = 4;
     }
 
+    public int getCylinders() {
+        return cylinders;
+    }
 
+    public String getName() {
+        return name;
+    }
 }
 
 public class Challenge {
