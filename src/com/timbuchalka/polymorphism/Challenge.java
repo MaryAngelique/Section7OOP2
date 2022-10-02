@@ -36,6 +36,16 @@ class Car {
 
 }
 
+
+class Mitsubishi extends Car {
+
+    public Mitsubishi(int cylinders, String name) {
+        super(cylinders, name);
+    }
+
+
+}
+
 public class Challenge {
 
     public static void main(String[] args) {
