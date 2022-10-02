@@ -1,5 +1,15 @@
 package com.timbuchalka.polymorphism;
 
+class Car {
+
+    private boolean engine;
+    private int cylinders;
+    private String name;
+    private int wheels;
+
+
+}
+
 public class Challenge {
 
     public static void main(String[] args) {
