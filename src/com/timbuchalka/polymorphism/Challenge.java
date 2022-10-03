@@ -82,6 +82,15 @@ class Holden extends Car {
 }
 
 
+class Ford extends Car {
+
+    public Ford(int cylinders, String name) {
+        super(cylinders, name);
+    }
+
+}
+
+
 public class Challenge {
 
     public static void main(String[] args) {
