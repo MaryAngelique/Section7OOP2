@@ -130,6 +130,10 @@ public class Challenge {
         System.out.println(car.accelerate());
         System.out.println(car.brake());
 
+        Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+        System.out.println(mitsubishi.startEngine());
+        System.out.println(mitsubishi.accelerate());
+        System.out.println(mitsubishi.brake());
 
     }
 
