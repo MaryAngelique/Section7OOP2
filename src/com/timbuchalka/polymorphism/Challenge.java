@@ -125,6 +125,12 @@ public class Challenge {
         // Override the appropriate methods to demonstrate polymorphism in use.
         // put all classes in the one java file (this one).
 
+        Car car = new Car(8, "Base car");
+        System.out.println(car.startEngine());
+        System.out.println(car.accelerate());
+        System.out.println(car.brake());
+
+
     }
 
 }
