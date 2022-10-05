@@ -34,6 +34,7 @@ public class Main {
         // adding totals to final price.
 
         Hamburger hamburger = new Hamburger("Basic", "Sausage", 3.56, "White");
+        double price = hamburger.itemizeHamburger();
 
 
     }
