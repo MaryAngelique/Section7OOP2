@@ -33,5 +33,8 @@ public class Main {
         // For the two additional classes this may require you to be looking at the base class for pricing and then
         // adding totals to final price.
 
+        Hamburger hamburger = new Hamburger("Basic", "Sausage", 3.56, "White");
+
+
     }
 }
